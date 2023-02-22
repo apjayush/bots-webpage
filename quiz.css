@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300&family=Roboto+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: #ffe9e2;
+    height: 60px;
+}
+
+.first_ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_list{
+    list-style: none;
+    padding: 10px 10px;
+    margin: 5px 15px 0px 10px ;
+}
+
+.first_a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.first_a:hover{
+    color: red;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+   
+    height: 400px;
+    width: 800px;
+    background-color: #f1e0db;
+    margin: auto;
+    margin-top: 50px;
+    padding: 50px 50px;
+    border-radius: 25px;
+}
+
+.options_list{
+    list-style: none;
+    padding: 10px 10px;
+    margin: 5px 0px 5px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.nextBtn{
+    width: 250px;
+    margin: auto;
+    padding: 10px 10px;
+    border: 0px ;
+    background-color: rgb(62, 190, 62);
+    font-size: 17px;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+.nextBtn a{
+    color: white;
+    text-decoration: none;
+    cursor: grab;
+}
+
+
+.nextBtn:hover{
+   background-color: green;
+
+}
+
+
+
+.btnLink{
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+.head{
+    padding: 5px 0px 5px 0px;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+.labelHead{
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px 0px;
+    font-weight: bold;
+}
+
+
+.submitBtn{
+    width: 220px;
+    margin: auto;
+    padding: 12px 15px;
+    border-radius: 10px;
+    background-color: rgb(207, 145, 104);
+    font-size: large;
+
+}
+
+.headSubmit{
+    padding: 5px 0px 5px 0px;
+    font-family: 'Montserrat', sans-serif;
+   margin: auto;
+}
+
+.cookie-consent {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 4px;
+    text-align: center;
+    z-index: 9999;
+  }

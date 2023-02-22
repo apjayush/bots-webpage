@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300&family=Roboto+Mono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container-about{
+    background-color: rgb(236, 215, 215);
+    padding: 35px 70px;
+    margin: 10px 10px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 30px;
+    display: block;
+    margin: auto;
+    height: 400px;
+    width: 800px;
+    margin-top: 50px;
+    
+}
+
+.para{
+    /* word-spacing: 10px; */
+    word-spacing: 5px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    margin-top: 10px;
+}
+
